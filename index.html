@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <style>
+            body
+{
+  background:url(/maxresdefault.jpg);
+  background-size:100vw 100vh;
+  background-repeat:no-repeat;
+  color:#fff;
+  font-family: 'Quicksand', sans-serif; 
+ 
+}
+
+
+section
+{
+/*   background:red; */
+  width:50%;
+  margin:3% auto;
+  text-align:center;
+  padding:1px
+}
+
+div
+{
+  width:150px;
+  height:150px;
+  background:#7b7b7b;
+  margin:10% auto 0;
+  border-radius:50%;
+  position:relative
+}
+
+div:after
+{
+  content:"";
+ 
+  width:25%;
+  height:25%;
+  position:absolute;
+  border-radius:50%;
+  border:4px solid #fff;
+  top:20%;
+  left:36%
+}
+
+div:before
+{
+  content:"";
+ 
+  width:70px;
+  height:35px;
+  position:absolute;
+  border-radius:90px 100px 0px 0px;
+  border:4px solid transparent;
+  border-top-color:#fff ;
+  top:48%;
+  left:26%;
+  
+}
+
+input
+{
+  width:250px;
+  height:25px;
+  padding-left:5px;
+  position:relative;
+  border:2px solid #aaa;
+  outline:0
+}
+
+span
+{
+  position:relative
+}
+
+span:after
+{
+  content:"\f061";
+  position:absolute;
+  color:red;
+  font-family:'FontAwesome';
+  top:2px;
+  display:block;
+  background:#324556;
+  right:1px;
+  height:25px;
+  width:28px;
+  color:#fff;
+  padding-top:2px
+ 
+}
+
+
+i 
+{
+  position:absolute;
+  bottom:8px;
+  
+  
+  
+}
+
+i:first-child
+{
+  
+  right:15px
+  
+}
+
+i:nth-child(2)
+{
+  right:45px;
+}
+
+i:nth-child(3)
+{
+  right:80px;
+  bottom:6px;
+  transform:rotate(-45deg)
+  
+}
+        </style>
+        
+</head>
+<body>
+
+        
+        <section>
+        
+          <div></div>
+          
+          <h1>User</h1>
+          
+          <span>
+          <input type="password" placeholder="Password">
+          </span>
+        
+        
+        </section>
+        
+        <nav>
+        <i class="fa fa-power-off"></i>
+        <i class="fa fa-recycle"></i>
+        <i class="fa fa-wifi"></i>
+        </nav>
+    
+
+
+</body>
+</html>
